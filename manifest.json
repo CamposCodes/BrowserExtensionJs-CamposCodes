@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2 ,
+    "manifest_version": 2,
     "name": "CamposCodes Was Here Extension" ,
     "version": "1.0.0" ,
     "content_scripts": [    
