@@ -1,4 +1,4 @@
-# Browser Extension com JavaScript
+# Browser Extension com JavaScript (Altera imagens e títulos)
 
 - Iniciativa pessoal, com o intuito de treinar o uso do JavaScript para criação de extensões do Google Chrome;
 
