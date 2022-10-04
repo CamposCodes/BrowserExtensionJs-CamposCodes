@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+
+:root{
+    --colorbg : #04080F;
+    --color1 : #507DBC;
+    --color2 : #A1C6EA;
+}
+
+body{
+    background: var(--colorbg);
+}
+h1{
+    letter-spacing: 3px;
+    color: var(--color1);
+    text-align: center;
+}
+input{
+    border: none;
+    background-color: var(--color1);
+    border-radius: 20px;
+    width: 8rem;
+    height: 1px;
+    transition: .5s;
+}
+input:focus{
+    height: 1rem;
+    background-color: var(--color2);
+}
+input::placeholder{
+    text-align: center;
+    color: var(--color1);
+}
