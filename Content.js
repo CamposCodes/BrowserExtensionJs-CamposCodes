@@ -14,3 +14,14 @@ for(let i = 0; i < imgs.length; i++){
     const radomImg = Math.floor(Math.random() * camposImages.length);
     imgs[i].src = camposImages[radomImg];
 }
+
+const titles = document.getElementsByTagName("h3");
+
+for(let i = 0; i < titles.length; i++){
+    titles[i].innerText = "Campos Codes was here !";
+}
+
+const spans = document.getElementsByTagName("span");
+for(let i = 0; i < spans.length; i++){
+    spans[i].innerText = "CamposCodes";
+}
